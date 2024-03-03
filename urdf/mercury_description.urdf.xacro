@@ -3,7 +3,7 @@
 
   <xacro:macro name="mercury_description">
 
-  <xacro:include filename="inc/create_link.xacro"/>
+  <xacro:include filename="$(find tr_robot_description)/urdf/inc/create_link.xacro"/>
 
   <xacro:create_link
       link_name="base_link"

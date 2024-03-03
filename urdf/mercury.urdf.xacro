@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro" name="mercury">
 
-  <xacro:include filename="mercury_description.urdf.xacro"/>
+  <xacro:include filename="$(find tr_robot_description)/urdf/mercury_description.urdf.xacro"/>
 
   <link name="world"/>
 
