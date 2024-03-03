@@ -40,6 +40,7 @@
       </command_interface>
       <command_interface name="velocity">
         <param name="max">2.01</param>
+        </command_interface>
       <state_interface name="position"/>
       <state_interface name="velocity"/>
     </joint>
@@ -86,7 +87,7 @@
   <gazebo>
     <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
       <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
-      <parameters>$(find tr_bringup)/config/gazebo_controller_configuration.yaml</parameters>
+      <parameters>$(find tr_bringup)/config/controller_configuration.yaml</parameters>
     </plugin>
   </gazebo>
 
