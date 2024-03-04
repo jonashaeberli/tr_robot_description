@@ -7,4 +7,8 @@
 
   <xacro:mercury_description/>
 
+  <xacro:include filename="$(find tr_robot_description)/urdf/mercury.ros2_control.xacro"/>
+  
+  <xacro:mercury_ros2_control/>
+
 </robot>
